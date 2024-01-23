@@ -1,0 +1,18 @@
+- id: laravel-pint
+  name: Laravel Pint
+  description: Run Laravel Pint on the project to check for code style issues.
+  entry: hooks/laravel-pint.sh
+  language: script
+  files: \.php$
+  pass_filenames: true
+
+- id: laravel-test
+  alias: laravel-test
+  name: Laravel Test
+  description: Run Laravel tests on the project.
+  entry: hooks/laravel-test.sh
+  language: script
+  files: \.php$
+  pass_filenames: false
+  args:
+    - "--without-tty"
