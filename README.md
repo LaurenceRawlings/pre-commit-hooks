@@ -15,7 +15,7 @@ Add the code blocks below to your `.pre-commit-config.yaml` file.
 ### Laravel
 
 Adds support for running [Laravel Pint](https://laravel.com/docs/10.x/pint) and
-[Tests](https://laravel.com/docs/10.x/testing#running-tests) as pre-commit hooks in a Laravel project.
+[Artisan Tests](https://laravel.com/docs/10.x/testing#running-tests) as pre-commit hooks in a Laravel project. Includes support for projects using [Laravel Sail](https://laravel.com/docs/10.x/sail).
 
 #### Pint
 
